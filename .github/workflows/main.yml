@@ -17,5 +17,4 @@ jobs:
         server: host3.solucionesahora.com
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: public_html/
-        local-dir: ./CalculoJuros/
+        server-dir: public_html/CalculoJuros/
